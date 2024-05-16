@@ -18,9 +18,7 @@ module tt_um_serdes (
 
   // All output pins must be assigned. If not used, assign to 0.
  
-    wire data_8b_in[7:0] = 8'b0;
-    assign data_8b_in[7:0] = ui_in[7:0];
-    reg data_out[7:0] = uo_out[7:0];
+    
     wire ser_in = uio_in[0];
     reg ser_out = uio_out[1];
     wire data_en = uio_in[2];
@@ -35,8 +33,8 @@ module tt_um_serdes (
         .par_en(par_en),  
         .ser_en(ser_en),  
         .ser_out(ser_out),
-        .data_out(data_out),
-        .data_8b_in(data_8b_in)  
+        .data_out(uo_out),
+        .data_8b_in(ui_in)  
     );
         
 endmodule
