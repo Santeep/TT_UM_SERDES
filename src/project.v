@@ -17,8 +17,25 @@ module tt_um_SerDes (
 );
 
   // All output pins must be assigned. If not used, assign to 0.
-  assign uo_out  = ui_in + uio_in;  // Example: ou_out is the sum of ui_in and uio_in
-  assign uio_out = 0;
-  assign uio_oe  = 0;
+ 
+    wire data_8b_in[7:0] = ui_in[7:0];
+    wire data_out[7:0] = uo_out[7:0};
+    wire ser_in = uio_in[0];
+    wire ser_out = uio_out[1];
+    wire data_en = uio_in[2];
+    wire par_en = uio_in[3];
+    wire ser_en = uio_in[4];
 
+    serdes_top serdes_inst (
+        .clk(clk),
+        .rst_n(rst_n),
+        .data_en(data_en),
+        .ser_in(ser_in),
+        .par_en(par_en),  // Assuming parity is not used
+        .ser_en(ser_en),  // Assuming serialization is always enabled
+        .ser_out(ser_out),
+        .data_out(data_out),
+        .data_8b_in(data_8b_in)  // Assuming no external data input in serdes mode
+    );
+        
 endmodule
