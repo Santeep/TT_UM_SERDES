@@ -44,9 +44,9 @@ pinout:
   # Bidirectional pins
   uio[0]: "ser_in"
   uio[1]: "ser_out"
-  uio[2]: ""
-  uio[3]: ""
-  uio[4]: ""
+  uio[2]: "data_en"
+  uio[3]: "par_en"
+  uio[4]: "ser_en"
   uio[5]: ""
   uio[6]: ""
   uio[7]: ""
