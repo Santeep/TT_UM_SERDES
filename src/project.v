@@ -5,7 +5,7 @@
 
 `default_nettype none
 
-module tt_um_SerDes (
+module tt_um_serdes (
     input  wire [7:0] ui_in,    // Dedicated inputs
     output wire [7:0] uo_out,   // Dedicated outputs
     input  wire [7:0] uio_in,   // IOs: Input path
@@ -31,11 +31,11 @@ module tt_um_SerDes (
         .rst_n(rst_n),
         .data_en(data_en),
         .ser_in(ser_in),
-        .par_en(par_en),  // Assuming parity is not used
-        .ser_en(ser_en),  // Assuming serialization is always enabled
+        .par_en(par_en),  
+        .ser_en(ser_en),  
         .ser_out(ser_out),
         .data_out(data_out),
-        .data_8b_in(data_8b_in)  // Assuming no external data input in serdes mode
+        .data_8b_in(data_8b_in)  
     );
         
 endmodule
