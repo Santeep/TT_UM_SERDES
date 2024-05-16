@@ -20,7 +20,7 @@ module tt_um_serdes (
  
     
     wire ser_in = uio_in[0];
-    wire ser_out = uio_out[1];
+    wire ser_out = uio_out[7:0];
     wire data_en = uio_in[2];
     wire par_en = uio_in[3];
     wire ser_en = uio_in[4];
