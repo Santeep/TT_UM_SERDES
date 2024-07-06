@@ -8,7 +8,7 @@ You can also include images in this folder and reference them in the markdown. E
 -->
 
 ## Credits :
- Our special thanks to HOD: Dr.Ravish Aradhya H V , Vice Principal: Dr Geetha K S and, Principal Dr. Subramanya K N for there content Support and encouragement to do tapout in Tiny Tapout 7 .
+ Our special thanks to HOD: Dr.Ravish Aradhya H V , Vice Principal: Dr Geetha K S and, Principal Dr. Subramanya K N for there constant support and encouragement to do tapout in Tiny Tapout 7 .
 
 ## Description
 
