@@ -8,6 +8,10 @@ You can also include images in this folder and reference them in the markdown. E
 -->
 
 ## How it works
+This Project is Executed under Guidance of Dr.Shylashree N from RVCE College of Engineering and Thanks to our HOD Dr.Ravish Aradhya H V , and vice Principle Dr Geetha K S .
+Special thanks for our college Principle Dr. Subramanya K N for his Support and Guidance to participate in Tiny Tapout 7 .
+
+
 
 The SerDes project operates by efficiently converting data between parallel and serial formats, enabling seamless communication between systems with different data transfer requirements. Here's how it works:
 
