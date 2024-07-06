@@ -1,7 +1,7 @@
 # Tiny Tapeout project information
 project:
   title:        "SerDes"      # Project title
-  author:       "Mahaa Santeep G"      # Your name
+  author:       "Mahaa Santeep G , Shylashree N , RV College of Engineering "      # Your name
   discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
   description:  "The project implements a Serializer and Deserializer (SerDes) module for converting data between parallel and serial formats in digital systems."      # One line description of what your project does
   language:     "Verilog" # other examples include SystemVerilog, Amaranth, VHDL, etc
